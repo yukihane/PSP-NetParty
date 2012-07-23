@@ -100,5 +100,6 @@
 	</build>
   <modules>
     <module>PlayClient</module>
+    <module>PspNetParty</module>
   </modules>
 </project>
