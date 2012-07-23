@@ -102,5 +102,9 @@
     <module>PspNetPartyLib</module>
     <module>PlayClient</module>
     <module>WlanProxy</module>
+    <module>PortalServer</module>
+    <module>RoomServer</module>
+    <module>SearchServer</module>
+    <module>LobbyServer</module>
   </modules>
 </project>
