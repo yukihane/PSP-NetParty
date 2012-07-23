@@ -99,7 +99,7 @@
 		</plugins>
 	</build>
   <modules>
+    <module>PspNetPartyLib</module>
     <module>PlayClient</module>
-    <module>PspNetParty</module>
   </modules>
 </project>

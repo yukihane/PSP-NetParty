@@ -8,7 +8,7 @@
     <version>0.8-SNAPSHOT</version>
   </parent>
   <groupId>com.github.montehunter.pspnetparty</groupId>
-  <artifactId>PspNetParty</artifactId>
+  <artifactId>PspNetPartyLib</artifactId>
   <version>0.8-SNAPSHOT</version>
   <name>PspNetParty</name>
   <url>http://maven.apache.org</url>
