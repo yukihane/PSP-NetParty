@@ -101,5 +101,6 @@
   <modules>
     <module>PspNetPartyLib</module>
     <module>PlayClient</module>
+    <module>WlanProxy</module>
   </modules>
 </project>
