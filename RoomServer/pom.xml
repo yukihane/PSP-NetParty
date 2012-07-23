@@ -9,7 +9,6 @@
   </parent>
   <groupId>com.github.montehunter.pspnetparty</groupId>
   <artifactId>RoomServer</artifactId>
-  <version>0.8-SNAPSHOT</version>
   <name>RoomServer</name>
   <url>http://maven.apache.org</url>
   <properties>
@@ -19,7 +18,7 @@
     <dependency>
       <groupId>com.github.montehunter.pspnetparty</groupId>
       <artifactId>PspNetPartyLib</artifactId>
-      <version>0.8-SNAPSHOT</version>
+      <version>${parent.version}</version>
     </dependency>
     <dependency>
       <groupId>junit</groupId>
