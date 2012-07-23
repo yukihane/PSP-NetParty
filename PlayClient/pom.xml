@@ -37,8 +37,11 @@
         <artifactId>maven-compiler-plugin</artifactId>
         <configuration>
           <includes>
-            <include>pspnetparty/client/**/*</include>
+            <include>pspnetparty/client/swt/**</include>
           </includes>
+          <excludes>
+            <exclude>pspnetparty/client/swt/app/**</exclude>
+          </excludes>
         </configuration>
       </plugin>
     </plugins>

@@ -32,8 +32,8 @@
         <artifactId>maven-compiler-plugin</artifactId>
         <configuration>
           <includes>
-            <include>pspnetparty/lib/**/*</include>
-            <include>pspnetparty/wlan/**/*</include>
+            <include>pspnetparty/lib/**</include>
+            <include>pspnetparty/wlan/**</include>
           </includes>
         </configuration>
       </plugin>
