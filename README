@@ -8,16 +8,21 @@ antのビルドでは、build.propertiesを各自用意して、
 publish_directoryをPSP NetPartyのjarを書き出すディレクトリに指定してください
 
 == Mavenでのビルド ==
+Mavenを用いてビルドする場合はSWT, jnetpcapは自動でダウンロードされます。
+
 Windows(64bit), Ubuntu(32bit)のみの限定サポートです。
 他のアーキテクチャ上でビルド/実行する場合はPSP-NetParty/pom.xmlのprofilesに
 適切な設定を追加する必要があります。
 
-Mavenを用いてビルドする場合はSWT, jnetpcapは自動でダウンロードされます.
+初回ビルド時のみ下記2コマンドを実行する必要があります。
+mvn com.savage7.maven.plugins:maven-external-dependency-plugin:resolve-external
+mvn com.savage7.maven.plugins:maven-external-dependency-plugin:install-external
+
+以降はmvnコマンドのみ実行で正常に終了します。
+http://code.google.com/p/maven-external-dependency-plugin/issues/detail?id=8#c4
 
 == Windows以外での実行 ==
 libjnetcap.so のあるディレクトリをjava.library.pathオプションで指定する必要があります。
 Mavenでビルドした場合はトップディレクトリに配置されますので
 java -Djava.library.path=. -jar jar/PlayClient.jar
 のようなコマンドになります。
-
-
