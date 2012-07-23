@@ -53,7 +53,7 @@
               <groupId>com.savage7.maven.plugins</groupId>
               <artifactId>maven-external-dependency-plugin</artifactId>
               <version>0.5</version>
-              <inherited>false</inherited>
+              <inherited>true</inherited>
               <configuration>
                 <stagingDirectory>${project.build.directory}/dependencies/</stagingDirectory>
                 <createChecksum>true</createChecksum>
