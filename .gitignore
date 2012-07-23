@@ -9,3 +9,5 @@ Test*
 lib_db
 PlayClient.appdata
 PublicServerList
+target/
+/jar/

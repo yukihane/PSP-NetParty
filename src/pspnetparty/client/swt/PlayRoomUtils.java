@@ -1,4 +1,4 @@
-﻿/*
+/*
 Copyright (C) 2011 monte
 
 This file is part of PSP NetParty.

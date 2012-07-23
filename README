@@ -6,3 +6,18 @@ lib_swtにあるswt.jarへクラスパスを設定しなおしてください
 
 antのビルドでは、build.propertiesを各自用意して、
 publish_directoryをPSP NetPartyのjarを書き出すディレクトリに指定してください
+
+== Mavenでのビルド ==
+Windows(64bit), Ubuntu(32bit)のみの限定サポートです。
+他のアーキテクチャ上でビルド/実行する場合はPSP-NetParty/pom.xmlのprofilesに
+適切な設定を追加する必要があります。
+
+Mavenを用いてビルドする場合はSWT, jnetpcapは自動でダウンロードされます.
+
+== Windows以外での実行 ==
+libjnetcap.so のあるディレクトリをjava.library.pathオプションで指定する必要があります。
+Mavenでビルドした場合はトップディレクトリに配置されますので
+java -Djava.library.path=. -jar jar/PlayClient.jar
+のようなコマンドになります。
+
+
