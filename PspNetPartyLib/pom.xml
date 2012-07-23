@@ -27,10 +27,10 @@
     </dependency>
     <dependency>
       <groupId>com.jnetpcap</groupId>
-      <artifactId>jnetpcap.dll</artifactId>
+      <artifactId>${jnetpcap.native.artifactId}</artifactId>
       <version>1.3.0-1</version>
       <scope>runtime</scope>
-      <type>dll</type>
+      <type>${jnetpcap.module.type}</type>
     </dependency>
     <dependency>
       <groupId>junit</groupId>
@@ -80,10 +80,10 @@
                     <artifactItems>
                       <artifactItem>
                         <groupId>com.jnetpcap</groupId>
-                        <artifactId>jnetpcap.dll</artifactId>
+                        <artifactId>${jnetpcap.native.artifactId}</artifactId>
                         <version>1.3.0-1</version>
-                        <type>dll</type>
-                        <destFileName>jnetpcap.dll</destFileName>
+                        <type>${jnetpcap.module.type}</type>
+                        <destFileName>${jnetpcap.module}</destFileName>
                       </artifactItem>
                     </artifactItems>
                   </configuration>
