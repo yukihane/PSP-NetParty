@@ -1,6 +1,7 @@
-PortalServers=pnp2.team-monketsu.net:50000,pnp3.team-monketsu.net:50000
-PortalServers0=test.team-monketsu.net:50000
+PortalServers=pnp-1.monkets.org:50000,batsugun.org:50015,mhp3svr.dip.jp:40000
 
-RoomServers=test.team-monketsu.net:30000
-SearchServers=test.team-monketsu.net:40000
-LobbyServers=test.team-monketsu.net:60000
+RoomServers=batsugun.org:30015,open1623.ddo.jp:30000,mhp3svr.dip.jp:31000,mhp3.ggrks.me:30016,mhp3s.ggrks.me:30016,drpeppers.planex.ddns.vc:30006
+
+SearchServers=mhp3.ggrks.me:40002,mhp3s.ggrks.me:40002
+
+LobbyServers=batsugun.org:60015
