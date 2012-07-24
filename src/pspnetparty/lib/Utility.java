@@ -116,7 +116,9 @@ public class Utility {
 	}
 
 	public static boolean isPspPacket(ByteBuffer packet) {
-		return packet.limit() > 14 && packet.get(12) == -120 && packet.get(13) == -56;
+		final boolean isPsp = packet.limit() > 14 && packet.get(12) == -120 && packet.get(13) == -56;
+		final boolean isVita = packet.limit() > 14 && packet.get(12) == 0x08 && packet.get(13) == 0x00;
+		return isPsp || isVita;
 	}
 
 	public static boolean isPspPacket(Ethernet ethernet) {
